@@ -1,0 +1,120 @@
+:root {
+  --color1: #7149c6;
+  --color2: #fc2947;
+  --color3: #fe6244;
+  --color5: #ffdeb9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.btn button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  position: absolute;
+  right: 150px;
+  top: 10px;
+  /* background-color:rgb(114, 114, 229); */
+  border: 2px solid black;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: Roboto, sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+.theme {
+  width: 2px;
+  cursor: pointer;
+  background-color: rgb(114, 114, 229);
+}
+
+.main {
+  background-color: rgb(114, 114, 229);
+  height: 100vh;
+}
+
+.container {
+  padding: 1%;
+}
+
+.smallContainer {
+  display: flex;
+  padding: 20px;
+  width: 40%;
+  border-radius: 50px;
+  justify-content: space-between;
+  border: 2px solid darkblue;
+  margin-top: -4%;
+  margin-left: 30%;
+}
+
+.left {
+  font-size: 40px;
+  color:darkblue;
+  font-family: Roboto, sans-serif;
+  user-select: none;
+}
+.right {
+  display: flex;
+  font-size: 40px;
+  color: darkblue;
+  font-family: Roboto, sans-serif;
+  user-select: none;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 170px;
+  border: 9px solid lightblue;
+  margin-top: 4%;
+  margin-left: 43%;
+  border-radius: 50%;
+  padding: 3.5%;
+  font-size: 50px;
+  background-color: darkblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: var(--color5);
+  user-select: none;
+}
+
+.inpray{
+  position: absolute;
+  top: 90px;
+  margin-top: 300px;
+  display: flex;
+  gap: 70px;
+  margin-left: 130px;
+}
+
+.inpray p{
+  font-size: 41px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.pray{
+  margin-top: 110px;
+  display: flex;
+  gap: 160px;
+  margin-left: 133px;
+}
+
+.pray img{
+  border: 5px solid lightsalmon;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+}

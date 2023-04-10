@@ -1,0 +1,23 @@
+nav ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+nav ul li :hover{
+  cursor: pointer;
+  color: midnightblue;
+}
+

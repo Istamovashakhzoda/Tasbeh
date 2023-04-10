@@ -1,0 +1,68 @@
+.about{
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.about p{
+  font-family: sans-serif;
+  line-height: 30px;
+  font-size: 19px;
+}
+
+.about img{
+  margin-top: 15px;
+  border: 1px solid black;
+  width: 99%;
+  height: 550px;
+  filter: brightness(0.7);
+  border-radius: 40px;
+}
+
+.images{
+  display: flex;
+}
+
+.itpictures img{
+  margin: 60px 0 0 40px;
+  width: 350px;
+  height: 300px;
+  border: 1px solid white;
+  filter: brightness(10);
+}
+
+.reactpicture{
+  margin-top:60px;
+}
+.reactpicture img{
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.paragraph{
+  display: flex;
+}
+
+.infor{
+  margin-top: 40px;
+  width: 350px;
+  height: 300px;
+  padding-left: 30px;
+}
+
+.infor p{
+  color: gray;
+  font-family: serif;
+}
+
+.infor2{
+  margin-top: 40px;
+  width: 350px;
+  height: 300px;
+}
+
+.infor2 p{
+  color: gray;
+  font-family: serif;
+}
